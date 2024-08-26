@@ -1,38 +1,334 @@
-.App {
+.container{
+  width: 680px;
+  height: 1976px;
+  
+  background-color: #FFFFFF;
+  margin-left: 20%;
+  margin-top:5%;
+
+}
+.image1{
+ 
+  height: 470px;
+}
+.head{
+  width: 1362px;
+  height: 79px;
+  margin-top: -460px;
+  display: flex;
+}
+.logo{
+  width: 69px;
+  height: 69px;
+ 
+}
+.navBar{
+  margin-top:25px;
+  display: flex;
+  gap: 30px;
+
+  list-style-type: none;
+  margin-left: 250px;
+}
+li{
+  font-family:   "Roboto", "sans-serif";
+  font-size: 13px;
+}
+.box{
+  width: 570px;
+  height: 270px;
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 150px 0px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  margin-left: 50px;
+  display: flex;
+  margin-top: -20px;
+}
+.per_img{
+  width: 211px;
+  height: 201px;
+  background-color: #B880FF;
+  border-radius: 50%;
+  margin-top: 30px;
+  margin-left: 50px;
+  border: 10px solid #D9D9D9;
+}
+.name{
+  margin-top: 60px;
+  color:#393939;
+  font-weight: bold;
+  font-size: 170%;
+  display: block;
+  margin-left: 6px;
+}
+.text_color{
+  color: #8E34FF;
+}
+.det{
+  display: block;
+  font-weight: normal;
+  font-size: 13px;
+  text-align: justify;
+  margin-right: 18px;
+  margin-top: 10px;
+ 
+}
+button{
+  cursor: pointer;
+}
+.prj{
+  background-color: #B880FF;
+  width: 100px;
+  height: 45px;
+  border-radius: 10px;
+  margin-top: 20px;
+  border: none;
+  color: #FFFFFF;
+}
+.res{
+background-color: transparent;
+color: #B880FF;
+width: 150px;
+height: 45px;
+border-radius: 10px;
+margin-top: 5px;
+border: none;
+}
+.skill1,.skill2,.skill3,.skill4{
+  background-color: #B880FF;
+  width: 100px;
+  height: 45px;
+  border-radius: 10px;
+  margin-top: 20px;
+  border: none;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+.skill{
+  display: flex;
+  margin-left: 240px;
+  gap: 10px;
+  margin-top: 40px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.skillLogo{
+  width: 55px;
+  height: 55px;
+  border: 1px solid #D9D9D9;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: -40px;
+  color: #FFFFFF;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.prjlogos{
+  height:130px ;
+  margin-left: 25px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.stacks{
+  text-align: center;
+  color: #8E34FF;
+  font-weight: bold;
+}
+.prjN{
+  margin-top: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+a{
+  text-decoration: none;
+}
+.links{
+ margin-left: 40px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  gap: 10px;
+  margin-right: 30px;
+}
+.web{
+  margin-top: 15px;
+  color: #8E34FF;
+ 
+}
+.prjName{
+  margin-top: 50px;
+  text-align: center;
+  font-weight: bold;
+  color: #8E34FF;
+}
+.git{
+  margin-top: 15px;
+  color: #739150;
+}
+.card{
+  margin-top: 40px;
+  box-shadow: 0 4px 8px 0 #8E34FF;
+  width: 200px;
+  height: 250px;
+  border-radius: 10px;
+  display: inline-block;
+  margin-right: 15px;
+  margin-left: 10px;
+}
+
+ 
+.abouts{
+  margin-top: 30px;
+  width: 100%;
+}
+.deta{
+  width: 433px;
+  height: 304px;
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 150px 0px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  margin-left: 50px;
+  display: block;
+  margin-top: -330px;
+}
+.name1{
+  margin-top: 60px;
+  color:#393939;
+  font-weight: bold;
+  font-size: 170%;
+  margin-left: 30px;
+}
+.text1_color{
+  color: #FFFFFF;
+}
+li::marker{
+  color: #8E34FF;
+  font-size: large;
+ 
+}
+li{
+  text-align: justify;
+  max-width: 350px;
+  font-family:  "Roboto", sans-serif;
+  font-size: 15px;
+  margin-bottom: 10px
+}
+.abt{
+  background-color: #B880FF;
+ margin-top: 60px;
+  width: 100%;
+  height: 350px;
+}
+.abt_img{
+  margin-top: -216px;
+  margin-left: 380px;
+}
+.deta{
+  margin-top:-28px
+}
+.contactBox{
+  width: 632px;
+  height: 500.06px;
+  background-color: #f5f5f5;
+  margin-top: 40px;
+  margin-left: 25px;
+}
+.cont{
+  text-align: center;
+  font-family:  "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: large;
+  padding: 15px;
+}
+.getintouch{
+  margin-left: 50px;
+  background-color: #FFFFFF;
+  margin-right: 50px;
+  font-size: larger;
+  font-weight: bold;
+  font-family:  "Roboto", sans-serif;
+  height: 430px;
+}
+.touch{
+  padding: 50px;
+}
+.inputBox{
+  margin-left: 30px;
+}
+.named{
+  width:150px;
+  height:30px;
+  border-radius: 10px;
+  border:1px solid #B880FF;
+  outline: none;
+  text-align: center;
+  margin-left: 30px;
+  margin-top:-100px;
+  margin-bottom: 20px;
+}
+.named,.emails{
+  width:150px;
+  height:30px;
+  border-radius: 10px;
+  border:1px solid #B880FF;
+  outline: none;
+  text-align: center;
+  margin-left: 5px;
+}
+.phoneno{
+  width:150px;
+  height:30px;
+  border-radius: 10px;
+  border:1px solid #B880FF;
+  outline: none;
+  text-align: center;
+  margin-left: 5px;
+}
+.txt{
+  resize: none;
+  min-height: 100px;
+  padding-top: 20px;
+  
+            width: 320px;
+            height: 50px;
+            border-radius: 5px;
+            text-align: left;
+            border:1px solid #B880FF;
+            padding-left: 20px;
+            margin-top: 10px;
+            margin-left: 30px;
+}
+textarea::placeholder{
+  padding: 2px ;
+  text-align: left;
+}
+.send{
+  width:80px;
+  height:40px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  background-color: #B880FF;
   color: white;
+  margin-left: 30px;
+  margin-top:30px;
 }
-
-.App-link {
-  color: #61dafb;
+a:visited{
+  color: #B880FF;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+a:active{
+  color: #B880FF;
+}
+a:active{
+  color: #B880FF;
+}
+@media (max-width:678px){
+  .container{
+    grid-template-rows: 50px 50px 50px 1fr 50px 50px 50px;
+    grid-template-areas: 
+      "Info"
+      "Project"
+      "About"
+      "Contact";
   }
 }
